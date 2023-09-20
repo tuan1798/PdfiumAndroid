@@ -258,7 +258,7 @@ public class PdfiumCore {
      */
     public void renderPage(PdfDocument doc, Surface surface, int pageIndex,
                            int startX, int startY, int drawSizeX, int drawSizeY) {
-        renderPage(doc, surface, pageIndex, startX, startY, drawSizeX, drawSizeY, false);
+        renderPage(doc, surface, pageIndex, startX, startY, drawSizeX, drawSizeY, true);
     }
 
     /**
@@ -295,7 +295,7 @@ public class PdfiumCore {
      */
     public void renderPageBitmap(PdfDocument doc, Bitmap bitmap, int pageIndex,
                                  int startX, int startY, int drawSizeX, int drawSizeY) {
-        renderPageBitmap(doc, bitmap, pageIndex, startX, startY, drawSizeX, drawSizeY, false);
+        renderPageBitmap(doc, bitmap, pageIndex, startX, startY, drawSizeX, drawSizeY, true);
     }
 
     /**
